@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('/imagens/space.jpg');
+    background-image: url("../space.jpg");
+    background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,7 +17,6 @@ body{
     margin-top: 14%;
 }
 .cabeca{
-    
     border-bottom: 2px solid white;
 }
 footer{
@@ -36,8 +36,9 @@ ul{
 }
 ul li{
     display: inline;
-    font-size: 17px;
-    margin-left: 7%;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8%;
 }
 #icon-sistema{
     position: absolute;
@@ -60,34 +61,34 @@ ul li{
 }
 h1{
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
 }
 .conteudo1{
     background-color: #09001d;
-     border: 3px solid white;
-     border-radius: 5px;
+     border: 8px solid white;
+     border-radius: 10px;
      width: 70%;
-     font-size: 8px;
+     font-size: 20px;
      margin: 0 auto;
      display: grid;
      grid-template-columns: 1fr 1fr;
 }
 .conteudo2{
     background-color: #000000d3;
-     border: 3px solid white;
-     border-radius: 5px;
+     border: 8px solid white;
+     border-radius: 10px;
      width: 70%;
-     font-size: 8px;
+     font-size: 20px;
      margin: 0 auto;
      display: grid;
      grid-template-columns: 1fr 1fr;
 }
 .conteudo3{
     background-color: #010505e7;
-     border: 3px solid white;
-     border-radius: 5px;
+     border: 8px solid white;
+     border-radius: 10px;
      width: 70%;
-     font-size: 8px;
+     font-size: 20px;
      margin: 0 auto;
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -114,7 +115,7 @@ h1{
  }
 #lua{
     position: absolute;
-    margin-top: -10%;
+    margin-top: -30%;
     animation: lua infinite 5s;
 }
 #alien{
@@ -150,13 +151,14 @@ h1{
 }
 h3{ 
     position: absolute;
-    font-size: 10px;
+    font-size: 25px;
     margin-left: 38%;
     color: black;
   
 }
 #facebook{
     position: absolute;
+    width: 10%;
     margin-left: 38%;
     margin-top: 5%;
     cursor: pointer;
@@ -178,7 +180,8 @@ h3{
 }
 #github{
     position: absolute;
-    margin-left: 48%;
+    width: 10%;
+    margin-left: 49%;
     margin-top: 5%;
     cursor: pointer;
     transition: transform .5s;
@@ -196,7 +199,8 @@ h3{
 }
 #instagram{
     position: absolute;
-    margin-left: 58%;
+    width: 10%;
+    margin-left: 59%;
     margin-top: 5%;
     cursor: pointer;
     transition: transform .5s;
@@ -218,8 +222,8 @@ h3{
     }
     ul li{
         display: inline;
-        font-size: 10px;
-        margin-left: -1%;
+        font-size: 23px;
+        margin-left: 8%;
     }
     #icon-header{
         width: 5%;
@@ -232,11 +236,11 @@ h3{
     }
     #icon-sistema{
         width: 10%;
-        margin-top: -106%;
+        margin-top: -95%;
         margin-left: 13%;
     }
     #siste{
-        margin-top: -105%;
+        margin-top: -95%;
     }
     #icon-ordem{
         width: 10%;
@@ -245,8 +249,8 @@ h3{
     }
     .conteudo1{
         background-color: #09001d;
-         border: 3px solid white;
-         border-radius: 11px;
+         border: 5px solid white;
+         border-radius: 15px;
          width: 70%;
          font-size: 15px;
          margin: 0 auto;
@@ -259,7 +263,7 @@ h3{
         border: 3px solid white;
         border-radius: 11px;
         width: 70%;
-        font-size: 6px;
+        font-size: 15px;
         margin: 0 auto;
          margin-right: 15%;
          display: grid;
@@ -272,7 +276,7 @@ h3{
     }
     .txt-1{
         position: absolute;
-        font-size: 6px;
+        font-size: 15px;
         margin-top: 35%;
         margin-left: 3% ;
         width: 65%;
@@ -311,8 +315,8 @@ h3{
          height: 20%;
    }
    #lua{
-         width: 35%;
-         margin-top: -30%;
+         width: 30%;
+         margin-top: -100%;
          margin-left: -5%;
    }
    #marte-img{
@@ -354,8 +358,8 @@ h3{
         height: 20%;
    }
    #plutao{
-        width: 30%;
-        margin-top: -25%;
+        width: 25%;
+        margin-top: -15%;
         margin-left: -2%;
    } 
    #netuno-img{
@@ -367,7 +371,7 @@ h3{
    footer{
         width: 100%;
         height: 25%;
-        margin-top: 130%;
+        margin-top: 125%;
    }
    h3{
         margin-left: 14%;

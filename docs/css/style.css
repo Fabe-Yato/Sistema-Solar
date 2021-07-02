@@ -11,6 +11,7 @@ body{
 }
 #siste{
     margin-top: -25%;
+    font-size: 20px;
 }
 #texto1{
     margin-top: 14%;
@@ -215,13 +216,13 @@ h3{
     border-radius: 50%;
     transition: border .5s;
 }
-  @media (max-width: 450px){
+  @media (max-width: 550px){
     ul{
         margin-left: -15%;
     }
     ul li{
         display: inline;
-        font-size: 23px;
+        font-size: 20px;
         margin-left: 8%;
     }
     #icon-header{
@@ -240,6 +241,7 @@ h3{
     }
     #siste{
         margin-top: -95%;
+        
     }
     #icon-ordem{
         width: 10%;
@@ -251,7 +253,7 @@ h3{
          border: 5px solid white;
          border-radius: 15px;
          width: 70%;
-         font-size: 15px;
+         font-size: 10px;
          margin: 0 auto;
          margin-right: 15%;
          display: grid;
@@ -262,7 +264,7 @@ h3{
         border: 5px solid white;
         border-radius: 11px;
         width: 70%;
-        font-size: 15px;
+        font-size: 10px;
         margin: 0 auto;
          margin-right: 15%;
          display: grid;
@@ -275,7 +277,7 @@ h3{
     }
     .txt-1{
         position: absolute;
-        font-size: 15px;
+        font-size: 10px;
         margin-top: 35%;
         margin-left: 3% ;
         width: 65%;

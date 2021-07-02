@@ -244,12 +244,12 @@ h3{
         font-size: 30px;   
     }
     #h1{
-        font-size:30px;
+        font-size: 28px;
       }
     #icon-ordem{
         width: 10%;
         margin-top: 4%;
-        margin-left: 3%;
+        margin-left: 2%;
     }
     .conteudo1{
         background-color: #09001d;
@@ -267,7 +267,7 @@ h3{
         border: 5px solid white;
         border-radius: 11px;
         width: 70%;
-        font-size: 14px;
+        font-size: 13px;
         margin: 0 auto;
          margin-right: 15%;
          display: grid;

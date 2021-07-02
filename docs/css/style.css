@@ -11,6 +11,7 @@ body{
 }
 #siste{
     margin-top: -25%;
+    font-size: 35px;
 }
 #texto1{
     margin-top: 14%;
@@ -60,7 +61,7 @@ ul li{
 }
 h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 }
 .conteudo1{
     background-color: #09001d;
@@ -221,8 +222,8 @@ h3{
     }
     ul li{
         display: inline;
-        font-size: 18px;
-        margin-left: 6%;
+        font-size: 19px;
+        margin-left: 8%;
     }
     #icon-header{
         width: 5%;
@@ -240,10 +241,10 @@ h3{
     }
     #siste{
         margin-top: -95%;
-        font-size: 25px;   
+        font-size: 30px;   
     }
     #h1{
-        font-size:25px;
+        font-size:30px;
       }
     #icon-ordem{
         width: 10%;
@@ -255,7 +256,7 @@ h3{
          border: 5px solid white;
          border-radius: 15px;
          width: 70%;
-         font-size: 13px;
+         font-size: 14px;
          margin: 0 auto;
          margin-right: 15%;
          display: grid;
@@ -266,7 +267,7 @@ h3{
         border: 5px solid white;
         border-radius: 11px;
         width: 70%;
-        font-size: 13px;
+        font-size: 14px;
         margin: 0 auto;
          margin-right: 15%;
          display: grid;

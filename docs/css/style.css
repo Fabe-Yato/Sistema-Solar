@@ -222,8 +222,8 @@ h3{
     }
     ul li{
         display: inline;
-        font-size: 19px;
-        margin-left: 8%;
+        font-size: 18px;
+        margin-left: 7%;
     }
     #icon-header{
         width: 5%;
@@ -244,7 +244,7 @@ h3{
         font-size: 30px;   
     }
     #h1{
-        font-size: 28px;
+        font-size: 25px;
       }
     #icon-ordem{
         width: 10%;
@@ -379,7 +379,7 @@ h3{
    }
    h3{
         margin-left: 14%;
-        font-size: 25px;
+        font-size: 20px;
    }
    #facebook{
        width: 30%;

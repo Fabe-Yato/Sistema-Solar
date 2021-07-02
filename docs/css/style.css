@@ -222,8 +222,8 @@ h3{
     }
     ul li{
         display: inline;
-        font-size: 18px;
-        margin-left: 7%;
+        font-size: 17px;
+        margin-left: 5%;
     }
     #icon-header{
         width: 5%;
@@ -244,7 +244,7 @@ h3{
         font-size: 30px;   
     }
     #h1{
-        font-size: 25px;
+        font-size: 20px;
       }
     #icon-ordem{
         width: 10%;
@@ -267,7 +267,7 @@ h3{
         border: 5px solid white;
         border-radius: 11px;
         width: 70%;
-        font-size: 13px;
+        font-size: 11px;
         margin: 0 auto;
          margin-right: 15%;
          display: grid;
@@ -296,7 +296,7 @@ h3{
     }
     .txt-2{
         position: absolute;
-        margin-top: 30%;
+        margin-top: 29%;
         margin-left: 3% ;
         width: 65%;
    }

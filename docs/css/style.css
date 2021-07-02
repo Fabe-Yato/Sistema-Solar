@@ -218,7 +218,7 @@ h3{
 }
   @media (max-width: 550px){
     ul{
-        margin-left: -15%;
+        margin-left: -14%;
     }
     ul li{
         display: inline;
@@ -237,14 +237,16 @@ h3{
     #icon-sistema{
         width: 10%;
         margin-top: -100%;
-        margin-left: 13%;
+        margin-left: 14%;
     }
     #siste{
         margin-top: -100%;
+        margin-left: 1%;
         font-size: 30px;   
     }
     #h1{
-        font-size: 10px;
+        font-size: 5px;
+        margin-left:2%;
       }
     #icon-ordem{
         width: 10%;

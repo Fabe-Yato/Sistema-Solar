@@ -223,7 +223,7 @@ h3{
     ul li{
         display: inline;
         font-size: 17px;
-        margin-left: 5%;
+        margin-left: 6%;
     }
     #icon-header{
         width: 5%;
@@ -236,15 +236,15 @@ h3{
     }
     #icon-sistema{
         width: 10%;
-        margin-top: -95%;
+        margin-top: -100%;
         margin-left: 13%;
     }
     #siste{
-        margin-top: -95%;
+        margin-top: -100%;
         font-size: 30px;   
     }
     #h1{
-        font-size: 20px;
+        font-size: 15px;
       }
     #icon-ordem{
         width: 10%;
@@ -280,7 +280,7 @@ h3{
     }
     .txt-1{
         position: absolute;
-        font-size: 10px;
+        font-size: 11px;
         margin-top: 35%;
         margin-left: 3% ;
         width: 65%;

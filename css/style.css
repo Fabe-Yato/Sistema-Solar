@@ -1,0 +1,395 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../imagens/space.jpg");
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+}
+#siste{
+    margin-top: -25%;
+}
+#texto1{
+    margin-top: 14%;
+}
+.cabeca{
+    border-bottom: 2px solid white;
+}
+footer{
+    height: 30%;
+    margin-top: 37%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+}
+.cabeca ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    margin-left: -10%;
+}
+ul li{
+    display: inline;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8%;
+}
+#icon-sistema{
+    position: absolute;
+    width: 4%;
+    margin-left: 36%;
+    margin-top: -26%;  
+    animation: SolarSistem 5s infinite;
+}
+  @keyframes SolarSistem{
+      100%{
+          transform: rotate(360deg)
+      }
+  }
+#icon-ordem{
+    position: absolute;
+    width: 4%;
+    margin-left: 32%;
+    margin-top: 1%;
+  
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+.conteudo1{
+    background-color: #09001d;
+     border: 8px solid white;
+     border-radius: 10px;
+     width: 70%;
+     font-size: 20px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.conteudo2{
+    background-color: #000000d3;
+     border: 8px solid white;
+     border-radius: 10px;
+     width: 70%;
+     font-size: 20px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.conteudo3{
+    background-color: #010505e7;
+     border: 8px solid white;
+     border-radius: 10px;
+     width: 70%;
+     font-size: 20px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+#astronauta{
+    position: absolute;
+    margin-left: 31%;
+    margin-top: -2%;
+    animation: astronauta infinite;
+    animation-duration: 20s;
+}
+ @keyframes astronauta{
+    0%{margin-top: -2%;}
+    10%{margin-top:2%}
+    20%{margin-top: -2%;}
+    30%{margin-top:2%;}
+    40%{margin-top: -2%;}
+    50%{margin-top:2%;}
+    60%{margin-top: -2%;}
+    70%{margin-top:2%;}
+    80%{margin-top: -2%;}
+    90%{margin-top:2%;}
+    100%{margin-top: -2%;}
+ }
+#lua{
+    position: absolute;
+    margin-top: -30%;
+    animation: lua infinite 5s;
+}
+#alien{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 82%;
+    animation: etzin infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+@keyframes etzin{
+    0%{margin-top: -2%;}
+    10%{margin-top:2%}
+    20%{margin-top: -2%;}
+    30%{margin-top:2%;}
+    40%{margin-top: -2%;}
+    50%{margin-top:2%;}
+    60%{margin-top: -2%;}
+    70%{margin-top:2%;}
+    80%{margin-top: -2%;}
+    90%{margin-top:2%;}
+    100%{
+        margin-top: -2%;
+    }
+ }
+#plutao{
+    position: absolute;
+    margin-top: -10%;
+}
+#imagem-1{
+    margin-left: 0.2%;
+}
+h3{ 
+    position: absolute;
+    font-size: 25px;
+    margin-left: 38%;
+    color: black;
+  
+}
+#facebook{
+    position: absolute;
+    width: 10%;
+    margin-left: 38%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: transform 2s;
+}
+#facebook img{
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+    transition: background-color .5s;
+}
+#facebook img:hover{
+    transform: translateY(-10%);
+    background-color: #3666a5;
+    border: 2px solid #1773EA;
+    transition: border .5s;
+    
+}
+#github{
+    position: absolute;
+    width: 10%;
+    margin-left: 49%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: transform .5s;
+    transition: background-color .5s;
+}
+#github img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#github img:hover{
+    transform: translateY(-10%);
+    background-color: gray;
+    border: 2px solid gray;
+    transition: border .5s;
+}
+#instagram{
+    position: absolute;
+    width: 10%;
+    margin-left: 59%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: transform .5s;
+}
+#instagram img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#instagram img:hover{
+    transform: translateY(-10%);
+    background: linear-gradient(90deg, #0011ff,#ff0000,#e6ff03 );
+    border: 2px solid #e1306c;
+    border-radius: 50%;
+    transition: border .5s;
+}
+  @media (max-width: 500px){
+    ul{
+        margin-left: -15%;
+    }
+    ul li{
+        display: inline;
+        font-size: 23px;
+        margin-left: 8%;
+    }
+    #icon-header{
+        width: 5%;
+    }
+    #venus{
+        width: 5%;
+    }
+    #lista{
+        display: none;
+    }
+    #icon-sistema{
+        width: 10%;
+        margin-top: -95%;
+        margin-left: 13%;
+    }
+    #siste{
+        margin-top: -95%;
+    }
+    #icon-ordem{
+        width: 10%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    .conteudo1{
+        background-color: #09001d;
+         border: 5px solid white;
+         border-radius: 15px;
+         width: 70%;
+         font-size: 15px;
+         margin: 0 auto;
+         margin-right: 15%;
+         display: grid;
+         grid-template-rows: 1fr 0.7fr;
+    }
+    .conteudo2{
+        background-color: #000000d3;
+        border: 3px solid white;
+        border-radius: 11px;
+        width: 70%;
+        font-size: 15px;
+        margin: 0 auto;
+         margin-right: 15%;
+         display: grid;
+         grid-template-rows: 1fr 0.9fr;
+    }
+    #sistema-solar-img{
+        margin-top: -3%;
+        width: 190%;
+        height: 90%;
+    }
+    .txt-1{
+        position: absolute;
+        font-size: 15px;
+        margin-top: 35%;
+        margin-left: 3% ;
+        width: 65%;
+    }
+    #imagem-1{
+        margin-top: 8%;
+    }
+    #mercuri{
+        margin-top: -4%;
+        margin-left: 2%;
+        width: 190%;
+        height: 100%;
+    }
+    .txt-2{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 3% ;
+        width: 65%;
+   }
+   #astronauta{
+        position: absolute;
+        width: 50%;
+        margin-left: 70%;
+        margin-top: -10%;
+   }
+   #venus-img{
+        margin-top: 2%;
+        margin-left: 2%;
+        width: 205%;
+        height: 20%;
+   }
+   #terra-img{
+        margin-top: 5%;
+        margin-left: 2%;
+         width: 205%;
+         height: 20%;
+   }
+   #lua{
+         width: 30%;
+         margin-top: -100%;
+         margin-left: -5%;
+   }
+   #marte-img{
+        margin-top: 4%;
+        margin-left: 2%;
+        width: 205%;
+        height: 15%;
+   }
+   #jupiter-img{
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 200%;
+        height: 15%;
+   }
+   .txt-3{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 3% ;
+    width: 65%;
+}
+   #saturno-txt{
+       margin-top: 100%;
+   }
+   #saturno-img{
+       margin-left: 4%;
+       margin-top: 1%;
+        width: 190%;
+        height: 15%;
+   }
+   #alien{
+        width: 30%;
+        margin-top: -30%;
+        margin-left: 70%;
+   }
+   #urano-img{
+        margin-top: 3%;
+        margin-left: 4%;
+        width: 200%;
+        height: 20%;
+   }
+   #plutao{
+        width: 25%;
+        margin-top: -15%;
+        margin-left: -2%;
+   } 
+   #netuno-img{
+        margin-top: 1%;
+        margin-left: 4%;
+        width: 195%;
+        height: 15%;
+   }
+   footer{
+        width: 100%;
+        height: 25%;
+        margin-top: 125%;
+   }
+   h3{
+        margin-left: 14%;
+        font-size: 25px;
+   }
+   #facebook{
+       width: 30%;
+        margin-top: 15%;
+        margin-left: 16%;
+   }
+   #github{
+        width: 30%;
+        margin-top: 15%;
+        margin-left: 44%;
+   }
+   #instagram{
+        width: 30%;
+        margin-top: 15%;
+        margin-left: 72%;
+   }
+}
